@@ -63,7 +63,7 @@ After cloning, make sure your mongo deamon is up. To start mongo deamon, do
 mongod --dbpath=%YOUR_DB_PATH%
 ```
 
-After installation, run
+To install all the dependencies inside the project, run
 
 ```bash
 npm install
@@ -75,7 +75,7 @@ After installing, run
 npm build
 ````
 
-After building
+After building, start the server by,
 
 ```bash
 npm start
