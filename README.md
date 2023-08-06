@@ -55,7 +55,9 @@ data: {product: {id: Number, name: String, quantity: Number}, message: String}
 
 Clone this github repository, using following command inside your terminal
 
-`git clone https://github.com/RJD02/CN-Ecommerce-API.git`
+```bash
+git clone https://github.com/RJD02/CN-Ecommerce-API.git
+```
 
 After cloning, make sure your mongo deamon is up. To start mongo deamon, do
 
