@@ -57,17 +57,29 @@ Clone this github repository, using following command inside your terminal
 
 `git clone https://github.com/RJD02/CN-Ecommerce-API.git`
 
+After cloning, make sure your mongo deamon is up. To start mongo deamon, do
+
+```bash
+mongod --dbpath=%YOUR_DB_PATH%
+```
+
 After installation, run
 
-`npm install`
+```bash
+npm install
+```
 
 After installing, run
 
-`npm build`
+```bash
+npm build
+````
 
 After building
 
-`npm start`
+```bash
+npm start
+```
 
 The server starts on port 3000
 Now, you can test out the API using POSTMAN
